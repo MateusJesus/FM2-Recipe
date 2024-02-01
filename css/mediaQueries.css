@@ -1,0 +1,35 @@
+@media (max-width:800px) {
+
+    .img-omelet {
+        padding: 0;
+        border-radius: 0;
+        width: 100%;
+    }
+
+    .main {
+        display: flex;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container {
+        background-color: var(--white);
+        width: 100vw;
+        padding: 0em;
+        border-radius: 0;
+    }
+
+    .container .inf {
+        padding: 0 2em;
+    }
+
+    .table {
+        margin: 2em 0 3em 0;
+    }
+
+    .footer {
+        padding: 1em;
+    }
+}

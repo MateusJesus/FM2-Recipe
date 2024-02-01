@@ -1,0 +1,104 @@
+body {
+    background-color: var(--bg);
+    font-family: var(--font-principal);
+    font-size: var(--font-size-text);
+    color: var(--color-text);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7em;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.img-omelet {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.container {
+    background-color: var(--white);
+    width: 51%;
+    padding: 2em;
+    border-radius: 20px;
+}
+
+.container .inf .title {
+    font-family: var(--font-title);
+    font-size: var(--font-size-title);
+    color: var(--color-title);
+    padding: .3em 0;
+}
+
+.container .inf .subtitle {
+    color: var(--color-subtitle);
+    font-size: var(--font-size-subtitle);
+    font-family: var(--font-subtitle);
+    padding-bottom: .5em;
+}
+
+.container hr {
+    margin: 2em 0;
+    border: 1px solid var(--hr);
+}
+
+.item-preparation::marker {
+    color: var(--color-title-preparation);
+}
+
+li::marker {
+    color: var(--color-subtitle);
+}
+
+ul,
+ol {
+    padding-left: 2em;
+}
+
+.container .inf .item {
+    padding: .3em 0 .3em 1em;
+}
+
+.container .inf .preparation {
+    padding: 1.5em 1.6em;
+    border-radius: 20px;
+    margin: 2em 0;
+    background-color: var(--bg-preparation);
+}
+
+.container .inf .preparation .preparation-title {
+    color: var(--color-title-preparation);
+    font-size: var(--font-size-title-preparation);
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.table-item1,
+.table-item2,
+.table-item3,
+.table-line1,
+.table-line2,
+.table-line3 {
+    border-bottom: 1px solid var(--hr);
+    padding: .8em .8em .8em 2em;
+    text-align: left;
+}
+
+.table-item4,
+.table-line4 {
+    padding: .8em .8em .8em 2em;
+    text-align: left;
+}
+
+.bld-tab {
+    color: var(--color-subtitle);
+}
